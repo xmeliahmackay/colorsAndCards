@@ -13,17 +13,27 @@
 
 .know {
   cursor: pointer;
-  color: #0088cc;
+  text-align: center;
 }
 
 .know:hover {
+  text-decoration: underline;
+}
+.know2 {
+  cursor: pointer;
+  text-align: center;
+}
+
+.know2:hover {
   text-decoration: underline;
 }
 
 #opHide {
   display: none;
 }
-
+#varHide {
+  display: none;
+}
 
 
 

@@ -7,7 +7,10 @@ $(document).ready(function() {
     $(".know").click(function() {
       $("#opHide").toggle();
       $("#opShow").toggle();
-   
+    });
+    $(".know2").click(function() {
+      $("#varHide").toggle();
+      $("#varShow").toggle();
     });
 
 
