@@ -27,6 +27,38 @@
 .know2:hover {
   text-decoration: underline;
 }
+.know3 {
+  cursor: pointer;
+  text-align: center;
+}
+
+.know3:hover {
+  text-decoration: underline;
+}
+.know4 {
+  cursor: pointer;
+  text-align: center;
+}
+
+.know4:hover {
+  text-decoration: underline;
+}
+.know5 {
+  cursor: pointer;
+  text-align: center;
+}
+
+.know5:hover {
+  text-decoration: underline;
+}
+.know6 {
+  cursor: pointer;
+  text-align: center;
+}
+
+.know6:hover {
+  text-decoration: underline;
+}
 
 #opHide {
   display: none;
@@ -34,8 +66,18 @@
 #varHide {
   display: none;
 }
-
-
+#metHide {
+  display: none;
+}
+#arguHide {
+  display: none;
+}
+#paraHide {
+  display: none;
+}
+#retuHide {
+  display: none;
+}
 
 
 

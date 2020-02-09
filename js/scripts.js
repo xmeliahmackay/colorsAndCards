@@ -12,8 +12,23 @@ $(document).ready(function() {
       $("#varHide").toggle();
       $("#varShow").toggle();
     });
-
-
+    $(".know3").click(function() {
+      $("#metHide").toggle();
+      $("#metShow").toggle();
+    });
+    $(".know4").click(function() {
+      $("#arguHide").toggle();
+      $("#arguShow").toggle();
+    });
+    $(".know5").click(function() {
+      $("#paraHide").toggle();
+      $("#paraShow").toggle();
+    });
+    $(".know6").click(function() {
+      $("#retuHide").toggle();
+      $("#retuShow").toggle();
+    });
+    
 
 
 
