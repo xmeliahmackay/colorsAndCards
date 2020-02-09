@@ -1,33 +1,14 @@
 $(document).ready(function() {
-  $(".click1").click(function() {
-    $("#walrus-showing").toggle();
-    $("#walrus-hidden").toggle();
-  });
-  
-  $(".click2").click(function() {
-    $("#walrus2").fadeToggle();
-  });
-
-  $(".click3").click(function() {
-  $("#otter").slideToggle();
-  });
-
-
-  $(".click4").click(function() {
-    $("#fact4").toggle();
+    $(".clickable").click(function() {
+      $("#walrus-showing").toggle();
+      $("#walrus-hidden").toggle();
     });
 
-  $(".click5").click(function() {
-    $("#fact5").toggle();
+    $(".know").click(function() {
+      $("#opHide").toggle();
+      $("#opShow").toggle();
+   
     });
-
-  $(".click6").click(function() {
-    $("#fact6").toggle();
-    });
-  
-
-
-
 
 
 
@@ -64,4 +45,15 @@ $(document).ready(function() {
     $("body").removeClass();
     $("body").addClass("darkMode");
   });
+
+
+
+
+
+
+
+
+
+
+
 });
